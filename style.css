@@ -1,0 +1,384 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+.full{
+    margin: 50px;
+    padding: 20px;
+    color: #282b42;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    font-size: 32px; 
+    color: #282b42;
+    margin-right: 100px;
+    gap: 20px;
+}
+.head-left{
+    display: flex;
+    gap: 20px;
+    padding-top: 22px;
+    font-size: 32px;
+    
+}
+.head-left a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #282b42;
+    cursor: pointer;
+    font-size: 32px;
+   
+    
+}
+.head-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn{
+    background-color: #f9f9f9;
+    border: none;
+    padding:22px 16px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #282b42;
+
+}
+.dropbtn:hover{
+    color:#2558FF;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;
+    width: 100%;
+    text-align: left;
+    color: #282b42;
+    border-radius:10px ;
+}
+ .show{
+    display: block;
+}
+.dropdown-content a{
+    color: #282b42;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #2558FF;
+    color: #fff;
+    margin: 15px;
+    border-radius: 10px;
+}
+.icon{
+  
+   background-color: #fff;
+   height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 42px;
+    color: #9AA0CA;
+   
+}
+.icon:hover{
+    background-color: #2558FF;
+    color: #fff;
+}
+.filter{
+    margin-top: 50px;
+}
+.filter-button{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    gap: 100px;
+    width: 100%;
+    margin: 0px;
+}
+
+.filter-button button{
+    background-color: #fff;
+     color: #4f5685;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    height: 60px;
+    width: 215px;
+    font-weight: 600;
+}
+.filter-button button:hover{
+    background-color: #2558FF;
+    color: #fff;
+}
+.checkboxes{
+    height: 100px;
+    margin: 30px;
+    background-color: #fff;
+    display: block;
+    padding:50px ;
+    border-radius: 10px;
+    font-size: 32px;
+    place-items: center;
+}
+.checkboxes .checkbox input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    background-color: #f9f9f9; /* Change to desired background color */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 3px; /* Optional: rounded corners */
+    cursor: pointer;
+}
+
+.checkboxes .checkbox input[type="checkbox"]:checked {
+    background-color: lightblue; /* Change to desired background color when checked */
+    border: 1px solid #007bff; /* Optional: different border color when checked */
+}
+.checkboxes .checkbox input[type="checkbox"]:checked::after{
+    content: '\2713';
+    font-size: 25px;
+    padding: 5px;
+}
+
+.checkboxes .checkbox label {
+    margin-left: 3px;
+    
+
+}
+
+.firstrow{
+ display: flex;
+ justify-content: space-between;
+ padding-bottom: 30px;
+ 
+}
+.firstrow .checkbox{
+    width: 33%;
+}
+.secrow{
+    display: flex;
+    justify-content: space-between;
+}
+.secrow .checkbox{
+    width: 33%;
+}
+.card-sec{
+  margin-left: 30px;
+   
+}
+.card-row{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    
+}
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    overflow: hidden;
+}
+
+.card img{
+    width: 97%;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.card img:hover{
+    transform: scale(1.1);
+    
+}
+.card-text{
+    padding: 0px 0px;
+    line-height: 43px;
+    color: #4f5685;
+}
+
+.card-text h3{
+    padding: 0px 30px;
+    font-size: 39px;
+    color: #4f5685;
+    margin-bottom: 5px;
+}
+.card-text h3:hover{
+    color: #2558FF;
+    cursor: pointer;
+}
+.rating{
+   color: #ccc;
+  font-size: 30px;
+    padding: 0px 30px;
+
+}
+.car{
+    padding: 0px 30px;
+    font-size: 30px;
+}
+.car:hover{
+    color: #2558FF;
+    cursor: pointer;
+}
+.left-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 30px;
+}
+.left-right:hover{
+    color: #2558FF;
+    cursor: pointer;
+}
+.white-border{
+    border: 1px solid #ccc;
+    margin: 0;
+    width: 100%;
+}
+#open{
+    color: #73cf42;
+    font-weight: 600;
+}
+
+.dropbtnfilter{
+    background-color: #f9f9f9;
+    border: none;
+    padding:22px 16px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #282b42;
+  
+
+}
+.dropbtnfilter:hover{
+    color:#2558FF;
+}
+
+.dropdown-content-filter{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 35px;
+    width: 100%;
+    text-align: left;
+    color: #282b42;
+    overflow-y: scroll;
+    border-radius:10px ;
+}
+ .showfilter{
+    display: block;
+}
+.dropdown-content-filter a{
+    color: #282b42;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content-filter a:hover{
+    background-color: #2558FF;
+    color: #fff;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+@media screen  and (min-width:1200px) and (max-width: 1600px){
+    .head{
+        font-size: 28px;
+        margin-right: 50px;
+    }   
+    
+}
+@media screen  and (min-width:700px) and (max-width: 1200px){
+    .head{
+
+        font-size: 24px;
+        margin-right: 30px;
+    } 
+    .head-left{
+        padding-top:10px ;
+        font-size: 24px;
+    } 
+    .head-left a{
+        font-size: 24px;
+    } 
+    .dropbtn{
+        font-size: 24px;
+        padding: 10px 16px;
+    }
+    .icon{
+        font-size: 26px;
+        height: 30px;
+        width: 30px;
+    }
+}
+@media screen  and (max-width: 700px){
+    html,body{
+        border:1px solid #282b42;
+    }
+    .head{
+        display: block;
+        font-size: 20px;
+        margin-right: 20px;
+    } 
+    .head-left{
+        padding-top:10px ;
+        font-size: 16px;
+    } 
+    .head-left a{
+        font-size: 16px;
+    } 
+    .head-right{
+        gap: 5px;
+
+    }
+    .dropbtn{
+        font-size: 16px;
+        padding: 10px 6px;
+    }
+    .dropdown-content{
+        margin-top: 0px;
+        font-size: 16px !important;
+    }
+    .dropdown-content a{
+        padding: 10px 6px;
+    }
+
+    .icon{
+        font-size: 15px;
+        height: 15px;
+        width: 15px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}

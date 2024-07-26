@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="full">
+        <div class="head">
+            <div class="head-left">
+               <div class="text">Results for <a href="#">Automotive</a> </div>
+            </div>
+            <div class="head-right">
+                
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="dropdown()">
+                            Sort by:Most Reviewed
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </button>
+                        <div id="dropdown" class="dropdown-content">
+                            <a href="#">Most Reviewed</a>
+                            <a href="#">Most Viewed</a>
+                            <a href="#">Highest Rated</a>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-list-ul" aria-hidden="true"></i>
+                    </div>
+            </div>     
+        </div>
+        <div class="filter">
+            <ul class="filter-button">
+                <li><button><i class="fa fa-location-arrow" aria-hidden="true"></i> Near me</button></li>
+                <li><button><i class="fa fa-inr" aria-hidden="true"></i> Price</button></li>
+                <li><button><i class="fa fa-clock" aria-hidden="true"></i> Open Now</button></li>
+                <li><button><i class="fa fa-random" aria-hidden="true"></i> Best Match</button></li>
+                <li>
+                    <div class="dropdown">
+                    <button class="dropbtnfilter" onclick="dropdownfilter()" ><i class="fa fa-list-ul" aria-hidden="true"></i> Automotive <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <div id="dropdownfilter" class="dropdown-content-filter">
+                        <a href="#">All Categories</a>
+                        <a href="#">American</a>
+                        <a href="#">Arts & Entertainment</a>
+                        <a href="#">Automotive</a>
+                        <a href="#">Beauty & Spas</a>
+                        <a href="#">Health & Medical</a>
+                        <a href="#">Hotels</a>
+                        <a href="#">Italian</a>
+                        <a href="#">Real Estate</a>
+                        <a href="#">Restaurants</a>
+                        <a href="#">Services</a>
+                        <a href="#">Shopping</a>
+
+                        
+
+                    </div>
+
+                </button>
+            </div>
+            </li>
+                <li><button><i class="fa fa-filter" aria-hidden="true"></i> All Filters</button></li>
+                
+            </ul>
+
+        </div>
+    <div class="checkboxes">
+        <div class="firstrow">
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="1"> Accept Credit Cards</label><br>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="2">
+                <label for="2"> Pets Friendly</label><br>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="3">
+                <label for="3"> Smoking Allowed</label><br>
+            </div>
+            </div>
+            <div class="secrow">
+                <div class="checkbox">
+                    <input type="checkbox" id="4">
+                    <label for="4"> Street Parking</label><br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="5">
+                    <label for="5"> Tax Services</label><br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="6">
+                    <label for="6">Wireless Internet</label><br>
+                </div>
+            </div>
+        </div>
+     <div class="card-sec">
+        <div class="card-row">
+            <div class="card">
+                <img src="card1.jpg" alt="">
+                <div class="card-text">
+                    <h3>Euro Collision</h3>
+                     <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        (1)
+                     </div>
+                     <div class="car"><i class="fa fa-car" aria-hidden="true"></i> Automotive</div>
+                     <div class="left-right">
+                     <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Georgia</div>
+                     <div id="open">Open Now</div>
+                    </div>
+                    <div class="white-border"></div>
+                    <div class="left-right">
+                        <div class="location"><i class="fa fa-phone-square" aria-hidden="true"></i> Call Now</div>
+                        <div><i class="fa-solid fa-diamond-turn-right"></i> Get Direction</div>
+                       </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="card2.png" alt="">
+                <div class="card-text">
+                    <h3>Staple & Fancy Hotel</h3>
+                     <div class="rating">
+                        5.0
+                        <i class="fa fa-star" aria-hidden="true" style="color:  rgb(115, 207, 66) !important;"></i>
+                        <i class="fa fa-star" aria-hidden="true"  style="color:  rgb(115, 207, 66) !important;"></i>
+                        <i class="fa fa-star" aria-hidden="true"  style="color:  rgb(115, 207, 66) !important;"></i>
+                        <i class="fa fa-star" aria-hidden="true"  style="color:  rgb(115, 207, 66) !important;"></i>
+                        <i class="fa fa-star" aria-hidden="true"  style="color:  rgb(115, 207, 66) !important;"></i>
+                        (1)
+                     </div>
+                     <div class="car"><i class="fa fa-car" aria-hidden="true"></i> Automotive</div>
+                     <div class="left-right">
+                     <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Los Angeles</div>
+                     <div id="open">Open Now</div>
+                    </div>
+                    <div class="white-border"></div>
+                    <div class="left-right">
+                        <div class="location"><i class="fa fa-phone-square" aria-hidden="true"></i> Call Now</div>
+                        <div><i class="fa-solid fa-diamond-turn-right"></i> Get Direction</div>
+                       </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="card1.jpg" alt="">
+                <div class="card-text">
+                    <h3>Euro Collision</h3>
+                     <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        (1)
+                     </div>
+                     <div class="car"><i class="fa fa-car" aria-hidden="true"></i> Automotive</div>
+                     <div class="left-right">
+                     <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Georgia</div>
+                     <div id="open">Open Now</div>
+                    </div>
+                    <div class="white-border"></div>
+                    <div class="left-right">
+                        <div class="location"><i class="fa fa-phone-square" aria-hidden="true"></i> Call Now</div>
+                        <div><i class="fa-solid fa-diamond-turn-right"></i> Get Direction</div>
+                       </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/e3ed8c99fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
